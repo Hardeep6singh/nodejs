@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Live Voting Poll</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+</head>
+<body>
+    <div class="container">
+         <div class="jumbotron">
+            <h1 class="display-4">Live Voting Poll</h1>
+            <p class="lead">Vote To Your Favourite Party</p>
+            <hr class="my-4">
+            
+         
+    
+    <form id="vote-form">
+        <p>
+            <input type="radio" name="ls" id="BJP" value="BJP">
+            <label for="BJP"> Bharatiya Janata Party (BJP)</label>
+    </p>
+        <p>
+            <input type="radio" name="ls" id="CPI" value="CPI">
+            <label for="CPI"> Communist Party of India (CPI)</label>
+        </p>
+        <p>
+                <input type="radio" name="ls" id="INC" value="INC">
+                <label for="INC">Indian National Congress (INC)</label>
+        </p>
+        <p>
+                <input type="radio" name="ls" id="Other" value="Other">
+                <label for="Other">None Of The Above (NOTA)</label>
+        </p>
+        <input type="submit" value="Vote" class='btn'>
+    </form>
+
+    <br><br>
+    <div id="chartContainer" style="height:300px;width:100%"></div>
+    </div>
+    <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+              
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pusher/4.2.2/pusher.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/canvasjs/1.7.0/canvasjs.min.js"></script>
+    <script src="main.js"></script>
+</div>
+</body>
+</html> 
